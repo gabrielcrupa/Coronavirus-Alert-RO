@@ -1,0 +1,155 @@
+.top_row {
+    display: table;
+    width: 100%;
+	border-spacing: 5px;
+}
+
+.top_row > div {
+    display: table-cell;
+	padding: 3px;
+    width: 50%;
+    border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+}
+
+.border {
+	border: 1px solid #eee;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 735px;
+  width: 100%;
+}
+
+.button_county {
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:linear-gradient(to bottom, #1fbacf 5%, #3d94f6 100%);
+	background-color:#1fbacf;
+	border-radius:6px;
+	border:1px solid #0081fa;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12.3px;
+	font-weight:bold;
+	width:90%;
+	height:35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+}
+
+.button_county:hover {
+	background:linear-gradient(to bottom, #3d94f6 5%, #1fbacf 100%);
+	background-color:#3d94f6;
+}
+.button_county:active {
+	position:relative;
+	top:1px;
+}
+
+.button_county:focus{
+	outline:none;
+	box-shadow: 0 0 7pt 6pt #3067ff;
+ }
+
+.go_back_button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+	height: 20px; 
+	width: 20px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	float: left;
+}
+
+.bell_button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+	height: 20px; 
+	width: 25px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	float: right;
+}
+
+.scrollable1 {
+    width: 312px;
+    height: 206px;  /* lower this if there are white margins at the top and the bottom of the map */
+    overflow: auto;
+}
+
+.scrollable2 {
+    width: 312px;
+    height: 312px;  /* lower this if there are white margins at the top and the bottom of the map */
+    overflow: auto;
+}
+
+.font1 {
+	font-family: 'Nanum Gothic', sans-serif;
+	text-align: center;
+	font-size: 14px;
+	color: #656565;
+	padding-right: 25px;
+}
+
+.font2 {
+	font-family: 'Nanum Gothic', sans-serif;
+	text-align: center;
+	font-size: 34px;
+	color: red;
+	padding-right: 5px;
+}
+
+.list_bullet_black {
+	content: "•";
+	color:black;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:13px;
+	padding-top:10px;
+}
+
+.list_bullet_orange {
+	content: "•";
+	color:orange;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:13px;
+	padding-top:10px;
+}
+
+.list_bullet_lime {
+	content: "•";
+	color:lime;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:13px;
+	padding-top:10px;
+}
+
+.text_to_left_color {
+	text-align: left;
+	color: #656565;
+}
+
+.text_to_right_color {
+	float: right;
+	color: #656565;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px     rgb(101,101,101,0); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px     rgb(101,101,101,0.6); 
+}
